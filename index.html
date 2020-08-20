@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <title>Hello Study Global</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">HelloStudy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="add.html">Add Vocabulary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+
+          <section id="hero" class="clearfix">
+            <div class="container d-flex h-100">
+              <div class="row justify-content-center align-self-center" data-aos="fade-up">
+                <div class="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in" data-aos-delay="100">
+                  <h1>Excellent teachers<br>for your <span>future!</span></h1>
+                  <div>
+                    <a href="#contact" class="btn-get-started btn btn-primary scrollto">Get Started</a>
+                  </div>
+                </div>
+        
+                <div class="col-md-6 intro-img order-md-last order-first" data-aos="zoom-out" data-aos-delay="200">
+                  <img src="intro-img.svg" alt="" class="img-fluid">
+                </div>
+              </div>
+        
+            </div>
+          </section>
+
+
+            <section class="ftco-section" id="contact">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-md-12">
+                      <div class="wrapper">
+                        <div class="row mb-5">
+                          <div class="col-md-3">
+                            <div class="dbox w-100 text-center">
+                              <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-map-marker fa-2x" style="color:#ff5733;"></span>
+                              </div>
+                              <div class="text">
+                                <p><span>Location:</span>Some Random Address, Randmo City, Random Country</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="dbox w-100 text-center">
+                              <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-phone fa-2x" style="color:#ff5733;"></span>
+                              </div>
+                              <div class="text">
+                                <p><span>Phone:</span> <a href="tel://1234567920">+91 9999999</a></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="dbox w-100 text-center">
+                              <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-paper-plane fa-2x" style="color:#ff5733;"></span>
+                              </div>
+                              <div class="text">
+                                <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@hellostudy.org</a></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="dbox w-100 text-center">
+                              <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-globe fa-2x" style="color:#ff5733;"></span>
+                              </div>
+                              <div class="text">
+                                <p><span>Website</span> <a href="https://hellostudy.org" target="_blank">hellostudy.org</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row no-gutters" style="border-radius: 10px;
+                        -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2);
+                        box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2);">
+                          <div class="col-md-7">
+                            <div class="contact-wrap w-100 p-md-5 p-4">
+                              <h3 class="mb-4" style="font-size:3rem;">Contact Us</h3>
+                              <div id="form-message-warning" class="mb-4"></div>
+                              <div id="form-message-success" class="mb-4">
+                                Your message will be sent, thank you!
+                              </div>
+                              <form method="POST" id="contactForm" name="contactForm" action="" class="contactForm">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label class="label" for="name">Full Name</label>
+                                      <input type="text" class="form-control" name="name" id="name" placeholder="Name" required="true">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label class="label" for="name">Your Profession</label>
+                                      <input type="text" class="form-control" name="designation" id="name" placeholder="Enter your profession" required="true">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label class="label" for="email">Email Address</label>
+                                      <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label class="label" for="name">Phone Number</label>
+                                      <input type="text" class="form-control" name="phone" id="name" placeholder="Phone Number" required="true">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <label class="label" for="subject">Subject</label>
+                                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="true">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <label class="label" for="#">Message</label>
+                                      <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message" required="true"></textarea>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <input value="Send Message" type="submit" onclick="submitted()" class="btn btn-primary">
+        
+                                      <div class="submitting"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <div class="col-md-5 d-flex align-items-stretch">
+                            <div class="info-wrap w-100 p-5 img" style="background-image: url(images/contact.jpg); width:90%; border-radius:2px;">
+                            </div>
+        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div id="map" class="map"></div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+          
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+              <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+               <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+               <script src="index.js"></script>
+
+
+               <script>
+                 function submitted(){
+                   alert("Contact Details have been submitted");
+                 }
+               </script>
+
+    </body>
+</html>
